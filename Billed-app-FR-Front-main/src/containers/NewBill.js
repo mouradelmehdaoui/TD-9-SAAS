@@ -116,7 +116,8 @@ export default class NewBill {
         pct,
         commentary,
         fileUrl: this.fileUrl,
-        fileName: this.fileName
+        fileName: this.fileName,
+        status: 'pending',
       };
 
       this.createOrUpdateBill(bill);
